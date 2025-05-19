@@ -28,5 +28,5 @@ COPY entrypoint.sh /kaniko/entrypoint.sh
 
 ENTRYPOINT ["/kaniko/entrypoint.sh"]
 
-LABEL repository="https://code.thetadev.de/ThetaDev/action-kaniko" \
-    maintainer="ThetaDev <thetadev@magenta.de>"
+LABEL repository="https://github.com/vshulkin/kaniko" \
+    maintainer="<vshulkin@gmail.com>"
